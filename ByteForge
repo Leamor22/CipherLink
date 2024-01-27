@@ -1,5 +1,5 @@
 from Cryptodome.Cipher import AES #1
-from Cryptodome.Random import get_random_bytes
+from Cryptodome.Random import get_random_byte
 from Cryptodome.Protocol.KDF import scrypt
 
 password = b'mypassword'
